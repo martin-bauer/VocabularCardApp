@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VocabularCardApp</string>
+    <string name="no_permission_textview">File Permission is not given</string>
+    <string name="permission_textview">Allow Permission</string>
+    <string name="basic_text_textview">Vokabeln lernen!</string>
+    <string name="basic_text_button">Datei selektieren</string>
+</resources>
