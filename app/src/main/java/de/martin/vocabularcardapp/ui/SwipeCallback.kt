@@ -11,7 +11,7 @@ import de.martin.vocabularcardapp.ui.ButtonsState.*
 class SwipeCallback(param: SwipeActions) : ItemTouchHelper.Callback() {
     private var swipeBack = false
     private var buttonShowedState = GONE
-    private val buttonWidth = 500f
+    private val buttonWidth = 200f
     private var buttonsActions: SwipeActions? = param
 
     override fun getMovementFlags(
@@ -60,7 +60,7 @@ class SwipeCallback(param: SwipeActions) : ItemTouchHelper.Callback() {
             swipeBack =
                 event.action == MotionEvent.ACTION_CANCEL || event.action == MotionEvent.ACTION_UP
             if (swipeBack) {
-                if (dX <= 300 && dX >= -300) {
+                if (dX <= 150 && dX >= -150) {
                     buttonShowedState = GONE
                 } else {
                     if (dX < -buttonWidth) buttonShowedState = RIGHT_VISIBLE

@@ -2,6 +2,9 @@
     <string name="app_name">VocabularCardApp</string>
     <string name="no_permission_textview">File Permission is not given</string>
     <string name="permission_textview">Allow Permission</string>
-    <string name="basic_text_textview">Vokabeln lernen!</string>
-    <string name="basic_text_button">Datei selektieren</string>
+    <string name="basic_text_textview">Learn Vocabs!</string>
+    <string name="basic_text_button">Select data</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="hanguk">hanguk</string>
+    <string name="korean">Korean</string>
 </resources>
